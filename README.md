@@ -1,6 +1,7 @@
 # My Portfolio 🙇🏻‍♀️
 
 My Personal Website built in React.
+Live: https://inbalportfolio2022.vercel.app/
 
 # Features 💡
 
