@@ -5,6 +5,7 @@ import p_weather from '../images/p_weather.png'
 import p_league from '../images/p_league.png'
 import p_portfolio from '../images/p_portfolio.png'
 import p_todolist from '../images/p_todolist.png'
+import p_ecommerce from '../images/p_ecommerce.png'
 
 function Projects() {
 
@@ -31,7 +32,8 @@ function Projects() {
               <img src={p_petShop} alt="petShopP" className='rounded-lg object-cover' layout='responsive' />
               <p className='text-md py-5 leading-8 text-gray-800 text-center dark:text-gray-300'>
               <span className='text-purple-600 text-lg dark:text-purple-300'>Animal Pet Shop</span><br/>
-              Project built with Asp.Net MVC, bootstrap, SQLite. 
+              Project built with Asp.Net MVC, bootstrap, SQLite. <br/>
+              GitHub <a className='underline' target="_blank" rel="noreferrer" href="https://github.com/InbalBu/AnimalPetShop">Here</a> 
               </p>
             </div>
             <div className='basis-1/3 flex-1'>
@@ -59,11 +61,12 @@ function Projects() {
               </p>
             </div>
             <div className='basis-1/3 flex-1'>
-              <img src={p_todolist} alt="todolistP" className='rounded-lg object-cover' layout='responsive' />
+              <img src={p_ecommerce} alt="ecommerceP" className='rounded-lg object-cover' layout='responsive' />
               <p className='text-md py-5 leading-8 text-gray-800 text-center dark:text-gray-300'>
-              <span className='text-purple-600 text-lg dark:text-purple-300'>To Do List App</span> <br/>
-              Project built in React.<br/>
-              Live website <a className='underline' target="_blank" rel="noreferrer" href="https://todolist-tan.vercel.app/">Here</a> 
+              <span className='text-purple-600 text-lg dark:text-purple-300'>Ecommerce App</span> <br/>
+              Project built with React, Node.js And Sanity Cms. <br/>
+              Collaboration with my course member. <br/>
+              GitHub <a className='underline' target="_blank" rel="noreferrer" href="https://github.com/InbalBu/EcommerceApp">Here</a> 
               </p>
             </div>
           </div>  
