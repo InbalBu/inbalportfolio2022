@@ -6,6 +6,8 @@ import p_league from '../images/p_league.png'
 import p_portfolio from '../images/p_portfolio.png'
 import p_todolist from '../images/p_todolist.png'
 import p_ecommerce from '../images/p_ecommerce.png'
+import p_briskwatch from '../images/p_briskwatch.png'
+
 
 function Projects() {
 
@@ -37,13 +39,14 @@ function Projects() {
               </p>
             </div>
             <div className='basis-1/3 flex-1'>
-              <img src={p_weather} alt="weatherP" className='rounded-lg object-cover' layout='responsive' />
+              <img src={p_briskwatch} alt="ecommerceP" className='rounded-lg object-cover' layout='responsive' />
               <p className='text-md py-5 leading-8 text-gray-800 text-center dark:text-gray-300'>
-              <span className='text-purple-600 text-lg dark:text-purple-300'>Weather App</span> <br/>
-              Weather app built in react, using OpenWeather API. <br/>
-              Live website <a className='underline' target="_blank" rel="noreferrer" href="https://weather-app-inbalbu.vercel.app/">Here</a> 
+              <span className='text-purple-600 text-lg dark:text-purple-300'>BriskWatch - Movie App</span> <br/>
+              Project built with React, Firebase, tailwindcss, javascript.  <br/>
+              Live website <a className='underline' target="_blank" rel="noreferrer" href="https://brisk-watch.vercel.app/">Here</a> 
               </p>
             </div>
+            
             <div className='basis-1/3 flex-1'>
               <img src={p_league} alt="leagueP" className='rounded-lg object-cover' layout='responsive' />
               <p className='text-md py-5 leading-8 text-gray-800 text-center dark:text-gray-300'>
@@ -67,6 +70,22 @@ function Projects() {
               Project built with React, Node.js And Sanity Cms. <br/>
               Collaboration with my course member. <br/>
               GitHub <a className='underline' target="_blank" rel="noreferrer" href="https://github.com/InbalBu/EcommerceApp">Here</a> 
+              </p>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <img src={p_todolist} alt="ecommerceP" className='rounded-lg object-cover' layout='responsive' />
+              <p className='text-md py-5 leading-8 text-gray-800 text-center dark:text-gray-300'>
+              <span className='text-purple-600 text-lg dark:text-purple-300'>To do List App</span> <br/>
+              Project built with React. <br/>
+              Live website <a className='underline' target="_blank" rel="noreferrer" href="https://todolist-tan.vercel.app/">Here</a> 
+              </p>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <img src={p_weather} alt="weatherP" className='rounded-lg object-cover' layout='responsive' />
+              <p className='text-md py-5 leading-8 text-gray-800 text-center dark:text-gray-300'>
+              <span className='text-purple-600 text-lg dark:text-purple-300'>Weather App</span> <br/>
+              Weather app built in react, using OpenWeather API. <br/>
+              Live website <a className='underline' target="_blank" rel="noreferrer" href="https://weather-app-inbalbu.vercel.app/">Here</a> 
               </p>
             </div>
           </div>  
